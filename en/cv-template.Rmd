@@ -1,12 +1,12 @@
 ---
 output: 
   pdf_document:
-    latex_engine: xelatex
+    latex_engine: pdflatex
     template: cv-latex.tex
 geometry: 'left=0.5in,top=0.4cm,right=0.5in,bottom=0.3in'
 
 title: 'Resume'
-author: Xiao Song宋骁
+author: Xiao Song
 
 fontawesome: true
 email: songxiao@umd.edu
