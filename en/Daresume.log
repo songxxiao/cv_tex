@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.14)  25 AUG 2021 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.14)  25 AUG 2021 15:34
 entering extended mode
-**./cv-template.tex
-(cv-template.tex
+**./Daresume.tex
+(Daresume.tex
 LaTeX2e <2018-12-01>
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -475,8 +475,8 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 101.
 Package hyperref Warning: Option `bookmarks' has already been used,
 (hyperref)                setting the option has no effect on input line 101.
 
-(cv-template.aux)
-\openout1 = `cv-template.aux'.
+(Daresume.aux)
+\openout1 = `Daresume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
 LaTeX Font Info:    ... okay on input line 104.
@@ -581,9 +581,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 104.
 LaTeX Info: Redefining \pageref on input line 104.
 LaTeX Info: Redefining \nameref on input line 104.
-(cv-template.out) (cv-template.out)
+(Daresume.out) (Daresume.out)
 \@outlinefile=\write3
-\openout3 = `cv-template.out'.
+\openout3 = `Daresume.out'.
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 107.
@@ -626,27 +626,27 @@ AED: lastpage setting LastPage
 {C:/Users/xsong/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
-(cv-template.aux)
+(Daresume.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
-Package rerunfilecheck Info: File `cv-template.out' has not changed.
+Package rerunfilecheck Info: File `Daresume.out' has not changed.
 (rerunfilecheck)             Checksum: 1D4E1028BB9919E15F1A944392ED3EC3;464.
  ) 
 Here is how much of TeX's memory you used:
  14051 strings out of 492945
- 201016 string characters out of 3135513
- 314523 words of memory out of 3000000
+ 200974 string characters out of 3135513
+ 314520 words of memory out of 3000000
  17731 multiletter control sequences out of 15000+200000
  22329 words of font info for 73 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,50p,1202b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,50p,1199b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
 KTeX 2.9/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/u
 plr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on cv-template.pdf (1 page, 87055 bytes).
+Output written on Daresume.pdf (1 page, 87055 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)

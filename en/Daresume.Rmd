@@ -3,21 +3,21 @@ output:
   pdf_document:
     latex_engine: pdflatex
     template: cv-latex.tex
-geometry: 'left=0.5in,top=0.4cm,right=0.5in,bottom=0.3in'
+geometry: 'left=0.5in,top=0.5cm,right=0.5in,bottom=0.3in'
 
 title: 'Resume'
-author: Xiao Song
+author: Xiao (Seanny) Song
 
 fontawesome: true
-email: songxiao@umd.edu
-github: songxxiao
-web: 'xsong.ltd.en'
-twitter: no
-phone: "+ 8618916836773"
+email: 'songxiao@umd.edu'
+github: 'songxxiao'
+web: 'xsong.ltd'
+# twitter: -----
+phone: '2405641321'
 
 
 # keywords: R Markdown, academic CV, template
-mainfont: Palatino # TeX Gyre Pagella  # mathpazo  Palatino
+fontfamily: Palatino # TeX Gyre Pagella  # mathpazo  Palatino
 # fontfamilyoptions: sc, osf
 fontsize: 11pt
 urlcolor: blue
@@ -26,25 +26,28 @@ urlcolor: blue
 
 # Education
 
-*Bachelor of Sociology \ East China Normal University* \hfill 2016~2020 
-*Bachelor Degree Thesis ([PDF](https://xsong.ltd/mlinss.pdf))*
-*Machine Learning in Social Sciences: Based on China Education Panel Survey* 
+Robert H. Smith School of Business, University of Maryland, College Park, MD \hfill 2021~2023   
+Master of Business Analytics 
 
-# Academic Research
-*Welfare Effect and Social Inequality of Land Transfer: Empirical Analysis Based on CFPS* \hfill 2018~2019
+East China Normal University, Shanghai \hfill 2016~2020  
+Bachelor of Sociology 
 
-The data of China Family Panel Survey (CFPS) were used for data cleaning and econometric analysis through Stata and R. Using Unconditional Quantile Regression and Fixed Effect Model estimate the welfare effect of land transfer behavior and its impact on social inequality. Using R’s `ggplot2` software package to visualize geographic information
+# Professional Experience
 
-# Work & Internship Experience
+**FancyDigital** \hfill 2020-09~2021-04  
+*Data Analyst(Full-Time)*
 
-**Remote Data Scientist Internship**  \hfill 2020-02~2020-04   
-*Zhongnan University of Economics and Law Data Consultant*  
++ Use distributed OLAP databases such as Apache Doris/TiDB/Clickhouse to write BI data dashboards. Use a variety of visualization methods to show the usage and revenue of the system. Count the consumption of advertising in multiple dimensions, such as time and user dimensions.
+
++ Perform user churn analysis on the company's SaaS products, provide user service suggestions to operators, and ultimately reduce the user churn rate to 10%.
+
++ Analyze the error log during product use and assist the product manager to optimize product design and user experience. Successfully reduced the bug rate to below 5%.
+
+**Zhongnan University of Economics and Law** \hfill 2020-02~2020-04   
+*Data Scientist Internship*
+ 
 Use Xgboost, RandomForest, LightGBM and other algorithms to classify (multiclass) legal text data. The word frequency method is used to construct the feature matrix, and the cross-validation training model (`sklearn`) is used to obtain the cross-validation accuracy of 0.75. I write a program to make predictions on new data, so that the prediction results can be applied to any new data set.
 
-**Data Analyst** \hfill 2019-07~2019-09   
-*iResearch*
-Using R and SPSS to analysis profile of cars’ users. Through PCA and Cluster analysis, I catogorized survey data and found cars users’ attitude difference. Using MySQL database to help analyze users’ data.
-Using Hive SQL to help access Hadoop database.
 
 # Awards and Honors
 
@@ -57,9 +60,22 @@ Using Hive SQL to help access Hadoop database.
 
 
 # Skills
+
+**Database / Data Warehouse** Good at writing and optimization of sql commands based on MySQL, SQL Server, etc. Familiar with advanced methods such as window functions.
+
+**Data Analytics & Statistics** Familiar with data manipulation and statistical analysis based on Python and R language, including the use of software packages such as `numpy`, `pandas` and `data.table`, `tidyverse`.
+
+**Machine Learning** Familiar with the theory and application of traditional machine learning methods, including cross-validation training and parameter adjustment based on `sklearn`'s Logistic Regression, SVM, Xgboost and other models.
+
+**Data visualization** Proficient in using Tableau, `ggplot2`, `plotly` and other software packages to visualize discrete data and continuous data, and be good at making dashboards based on business logic.
+
+**Web Crawler**  Familiar with the basic knowledge of html/css/json, can use Selenium, bs4 and other tools in Python to crawl the data presented in the webpage and write it into the database for storage.
+
+**Other Skills**  
+Linux/Shell, SPSS, Stata, Git, \LaTeX, HTML/CSS
+
 <!---
-%数据处理熟悉MySQL 数据库语言。能够使用R 语言与SQL  %进行连接和操纵，提升分析性能
---->
+
 **Data Analytics**  
 Familiar with the principle and implementation of statistical analysis in R language, able to use `tidyverse`, `data.table` for data cleaning.  
 Understand R language statistical analysis, derivation and implementation of LR, RNN, generalized linear model, K-means and other methods.  
@@ -82,6 +98,9 @@ SQL, SPSS, Stata, Git, \LaTeX, MS Office, HTML/CSS
 **Standard Examination**  
 TOEFL \quad 103 \ *Reading* 29 *Listening* 27 *Speaking* 21 *Writing* 26  
 GRE \quad *Verbal*  154 *Quantity* 167 *Writing* 3.5
+--->
+
+
 
 
 
