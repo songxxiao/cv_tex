@@ -10,7 +10,7 @@ author: Xiao (Seanny) Song
 
 fontawesome: true
 
-# jobtitle: Data Analyst
+jobtitle: Data Analyst
 email: 'songxiao@umd.edu'
 
 
@@ -25,49 +25,77 @@ phone: '2405641321'
 fontfamily: Palatino # TeX Gyre Pagella  # mathpazo  Palatino
 # fontfamilyoptions: sc, osf
 fontsize: 11pt
-urlcolor: blue
+urlcolor: black
 
 ---
 
-# Education
+# EDUCATION
 
-Robert H. Smith School of Business, University of Maryland, College Park, MD \hfill 2021~Present   
+**Robert H. Smith School of Business, University of Maryland**, College Park, MD \hfill 2021~Present   
 Master of Business Analytics 
 
-East China Normal University, Shanghai \hfill 2016~2020  
+**East China Normal University**, Shanghai \hfill 2016~2020  
 Bachelor of Sociology 
 
-# Work Experience
+# WORK EXPERIENCE
 
-**FancyDigital** \hfill 2020-09~2021-04  
+**FancyDigital**, Shanghai \hfill 2020-09~2021-04  
 *Data Analyst(Full-Time)*
 
++ Built BI dashboards to visualize customers' features and daily revenue of a SaaS system resulting in a 5% growth of customers
+
++ Performed user churn analysis based on users databases and provided user service suggestions to operators resulting in a decrease of user churn rate to 10%
+
++ Worked alongside product managers to optimize product design and user experience  using error logs data that reduced bug rate by 7%
+
++ Wrote ETL shell scripts to aggregate original detailed data tables into intermediate tables which increase query performance by 85%
+
+<!---
 + Use distributed OLAP databases such as Apache Doris/TiDB/Clickhouse to write BI data dashboards. Use a variety of visualization methods to show usage and revenue of system. Count consumption of advertising in multiple dimensions, such as time and user dimensions
+--->
 
-+ Perform user churn analysis on  company's SaaS products, provide user service suggestions to operators, and ultimately reduce user churn rate to 10%
 
-+ Analyzed error log during product use and assist  product manager to optimize product design and user experience. Successfully reduced  bug rate to below 5%
 
-**Zhongnan University of Economics and Law** \hfill 2020-02~2020-04   
+**Zhongnan University of Economics and Law**, Remote \hfill 2020-02~2020-04   
 *Data Scientist Internship*
- 
-+ Used Xgboost, RandomForest, LightGBM and or algorithms to classify (multiclass) legal text data
 
-+ Preformed  word frequency method to construct  feature matrix, and  cross-validation training model (`sklearn`) is used to obtain  cross-validation accuracy of 0.75
++ Trained a 5 folds cross validation model to predict likelihood of a legal provision's category and obtained improvement of accuracy to 0.8 
 
++ Preformed word frequency method and several NLP methods to construct feature matrix and built a reverse-translation method to augment training dataset that increase test accuracy by 5%
 
-# Awards and Honors
+**iResearch Consulting**, Shanghai \hfill 2019-07~2019-10   
+*Data Analyst Internship*
 
-**Kaggle**  [**M5 Forecasting - Accuracy**](https://www.kaggle.com/c/m5-forecasting-accuracy) \qquad 103rd/5558 \ Top2% \ Silver Medal \hfill 2020    
-*Estimate  unit sales of Walmart retail goods*   
++ Applied cluster analysis method to develop vehicle user profile and provide marketing advice for customers in the automotive industry
+
+<!---
++ Compiled consulting reports based on data analysis according to user portraits to help automobile manufacturers establish product positioning for target users
+--->
+
+# AWARDS AND HONORS
+
+**Kaggle** [**M5 Forecasting - Accuracy**](https://www.kaggle.com/c/m5-forecasting-accuracy) \qquad 103rd/5558 \ Top2% \ Silver Medal \hfill 2020    
+*Estimate unit sales of Walmart retail goods*   
+
++ Created features on tabular data and trained a LightGBM algorithm to forecast daily sales for next 28 days and acquired 0.58 of RMSE
+
++ Stacked and averaged single LightGBM model predictions to improve the generalization ability of forecasts which promoted 10% of ranking on leaderboard
 
 <!---
 **Kaggle** [**M5 Forecasting - Uncertainty**](https://www.kaggle.com/c/m5-forecasting-uncertainty) \qquad 18th/909 \ Top2% \ Silver Medal  \hfill 2020  
 *Estimate  uncertainty distribution of Walmart unit sales*   
 --->
 
-# Technical Skills
+# TECHNICAL SKILLS
 
++ Python (Numpy, Pandas, Scikit-learn, Keras), R
++ Tableau, SQL(MySQL, SQL Server, TiDB, Clickhouse), Linux/Shell, SPSS, Stata, Git, \LaTeX, HTML/CSS
++ Web Crawler
++ Text Mining
+
+
+
+<!---
 + **Database / Data Warehouse** Good at writing and optimization of sql commands based on MySQL, SQL Server, etc. Familiar with advanced methods such as window functions
 
 + **Data Analytics & Statistics** Familiar with data manipulation and statistical analysis based on Python and R language, including use of software packages such as `numpy`, `pandas` and `data.table`, `tidyverse`
@@ -79,7 +107,9 @@ Bachelor of Sociology
 + **Web Crawler**  Familiar with  basic knowledge of html/css/json, can use Selenium, bs4 and or tools in Python to crawl data presented in  webpage and write it into  database for storage
 
 + **Other Skills**  
-Linux/Shell, SPSS, Stata, Git, \LaTeX, HTML/CSS
+
+Python (NumPy, Pandas, Scikit-learn, Keras, Flask), Tableau, 
+SQL(MySQL, SQL Server, TiDB, Clickhouse), Linux/Shell, SPSS, Stata, Git, \LaTeX, HTML/CSS
 
 <!---
 
@@ -99,13 +129,16 @@ Understand  principles and implementation of natural language processing using `
 **Big Data**  
 Understand how to use R language `sparklyr` and or tools to connect and operate Hadoop and Spark clusters
 
-**Or Skills**  
-SQL, SPSS, Stata, Git, \LaTeX, MS Office, HTML/CSS
-
 **Standard Examination**  
 TOEFL \quad 103 \ *Reading* 29 *Listening* 27 *Speaking* 21 *Writing* 26  
 GRE \quad *Verbal*  154 *Quantity* 167 *Writing* 3.5
+
+SQL, SPSS, Stata, Git, \LaTeX, MS Office, HTML/CSS
 --->
+
+
+
+
 
 
 
