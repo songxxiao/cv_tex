@@ -3,14 +3,14 @@ output:
   pdf_document:
     latex_engine: pdflatex
     template: cv-latex.tex
-geometry: 'left=0.5in,top=0.3in,right=0.5in,bottom=0.3in'
+geometry: 'left=0.5in,top=0.5in,right=0.5in,bottom=0.5in'
 
 title: 'Resume'
 author: Xiao (Seanny) Song
 
 fontawesome: true
 
-jobtitle: Data Analyst
+# jobtitle: Data Analyst
 email: 'songxiao@umd.edu'
 
 
@@ -18,15 +18,14 @@ github: 'songxxiao'
 web: 'xsong.ltd'
 linkedin: 'seannysong'
 # twitter: -----
-phone: '2405641321'
+phone: '(240)564-1321'
 
-
+# fontfamily: Times New Roman
 # keywords: R Markdown, academic CV, template
 fontfamily: Palatino # TeX Gyre Pagella  # mathpazo  Palatino
 # fontfamilyoptions: sc, osf
 fontsize: 11pt
 urlcolor: black
-
 ---
 
 # EDUCATION
@@ -39,16 +38,16 @@ Bachelor of Sociology
 
 # WORK EXPERIENCE
 
-**FancyDigital**, Shanghai \hfill 2020-09~2021-04  
-*Data Analyst(Full-Time)*
+**FancyDigital**, Shanghai \hfill Sep. 2020 - Apr. 2021    
+**Data Analyst(Full-Time)**
 
-+ Built BI dashboards to visualize customers' features and daily revenue of a SaaS system resulting in a 5% growth of customers
++ Collaborated with a team and built BI dashboards to visualize customers' features and daily revenue of a SaaS system resulting in a 5% growth of customers
 
-+ Performed user churn analysis based on users databases and provided user service suggestions to operators resulting in a decrease of user churn rate to 10%
++ Mentored new co-workers to performed user churn analysis based on users databases and provided user service suggestions to operators resulting in a decrease of user churn rate to 10%
 
-+ Worked alongside product managers to optimize product design and user experience  using error logs data that reduced bug rate by 7%
++ Worked alongside product managers to optimize product design and user experience using error logs data reduced bug rate by 7%
 
-+ Wrote ETL shell scripts to aggregate original detailed data tables into intermediate tables which increase query performance by 85%
++ Wrote ETL shell scripts to aggregate original detailed data tables into intermediate tables to increase query performance by 85%
 
 <!---
 + Use distributed OLAP databases such as Apache Doris/TiDB/Clickhouse to write BI data dashboards. Use a variety of visualization methods to show usage and revenue of system. Count consumption of advertising in multiple dimensions, such as time and user dimensions
@@ -56,17 +55,18 @@ Bachelor of Sociology
 
 
 
-**Zhongnan University of Economics and Law**, Remote \hfill 2020-02~2020-04   
-*Data Scientist Internship*
+**Zhongnan University of Economics and Law**, Remote \hfill Feb. 2020 - Apr. 2020    
+**Data Scientist Internship**
 
 + Trained a 5 folds cross validation model to predict likelihood of a legal provision's category and obtained improvement of accuracy to 0.8 
 
-+ Preformed word frequency method and several NLP methods to construct feature matrix and built a reverse-translation method to augment training dataset that increase test accuracy by 5%
++ Preformed word frequency method and several NLP methods to construct feature matrix and built a reverse-translation method to augment training dataset increase test accuracy by 5%
 
-**iResearch Consulting**, Shanghai \hfill 2019-07~2019-10   
-*Data Analyst Internship*
 
-+ Applied cluster analysis method to develop vehicle user profile and provide marketing advice for customers in the automotive industry
+**iResearch Consulting**, Shanghai \hfill Jul. 2019 - Sep. 2019    
+**Data Analyst Internship**
+
++ Applied cluster analysis method to develop vehicle user profile and provide marketing advice for customers in automotive industry
 
 <!---
 + Compiled consulting reports based on data analysis according to user portraits to help automobile manufacturers establish product positioning for target users
@@ -75,11 +75,11 @@ Bachelor of Sociology
 # AWARDS AND HONORS
 
 **Kaggle** [**M5 Forecasting - Accuracy**](https://www.kaggle.com/c/m5-forecasting-accuracy) \qquad 103rd/5558 \ Top2% \ Silver Medal \hfill 2020    
-*Estimate unit sales of Walmart retail goods*   
+**Estimate unit sales of Walmart retail goods**  
 
 + Created features on tabular data and trained a LightGBM algorithm to forecast daily sales for next 28 days and acquired 0.58 of RMSE
 
-+ Stacked and averaged single LightGBM model predictions to improve the generalization ability of forecasts which promoted 10% of ranking on leaderboard
++ Stacked and averaged single LightGBM model predictions to improve the generalization ability of forecasts promoted 10% of ranking on leaderboard
 
 <!---
 **Kaggle** [**M5 Forecasting - Uncertainty**](https://www.kaggle.com/c/m5-forecasting-uncertainty) \qquad 18th/909 \ Top2% \ Silver Medal  \hfill 2020  

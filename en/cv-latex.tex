@@ -22,6 +22,7 @@ $endif$
     \usepackage{mathspec}
   \else
     \usepackage{fontspec}
+    \setmainfont{Times New Roman}
   \fi
   \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
 $if(euro)$
@@ -169,8 +170,7 @@ $endfor$
 % Custom section fonts
 \usepackage{sectsty}
 \sectionfont{\rmfamily\bfseries\Large}
-\subsectionfont{\rmfamily\mdseries\normalsize\itshape}
-
+\subsectionfont{\rmfamily\bfseries\normalsize}
 \usepackage[usenames, dvipsnames]{color}
 \definecolor{mygray}{gray}{0.6}
 
@@ -206,9 +206,10 @@ $if(fontawesome)$\usepackage{fontawesome}$endif$
 \lhead{}
 \chead{}
 \rhead{}
-\lfoot{
-\cfoot{\scriptsize  $author-meta$ - $title$ - $orcid$ }}
-\rfoot{\scriptsize \thepage/{\hypersetup{linkcolor=black}\pageref{LastPage}}}
+% \lfoot{
+% \cfoot{\scriptsize  $author-meta$ - $title$ - $orcid$ }}
+% \rfoot{\scriptsize \thepage/{\hypersetup{linkcolor=black}\pageref{LastPage}}}
+\thispagestyle{empty}
 
 % Always load hyperref last.
 \usepackage{hyperref}
