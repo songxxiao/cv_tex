@@ -11,7 +11,7 @@ author: Xiao (Seanny) Song
 fontawesome: true
 
 # jobtitle: Data Analyst
-email: 'songxiao@umd.edu'
+email: 'xiao.song@marylandsmith.umd.edu'
 
 
 github: 'songxxiao'
@@ -31,10 +31,10 @@ urlcolor: black
 # EDUCATION
 
 **Robert H. Smith School of Business, University of Maryland**, College Park, MD \hfill 2021~Present   
-Master of Business Analytics 
+**Master of Business Analytics**  
 
 **East China Normal University**, Shanghai \hfill 2016~2020  
-Bachelor of Sociology 
+**Bachelor of Sociology**
 
 # WORK EXPERIENCE
 
