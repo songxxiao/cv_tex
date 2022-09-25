@@ -1,0 +1,65 @@
+---
+output: 
+  pdf_document:
+    latex_engine: pdflatex
+    template: rap-latex-cv.tex
+geometry: 'left=0.5in,top=0.4cm,right=0.5in,bottom=0.3in'
+
+title: "CV"
+author: Xiao Song
+#orcid: "orcid.org/0000-0002-9577-6885"
+jobtitle: " "
+address: "5303 Settling Pond ln, Greenbelt"
+fontawesome: no
+email: songxiao@umd.edu
+github: songxxiao
+#phone: "+1 555 5555"
+#web: 'wikipedia.org/wiki/Grace_Hopper'
+#updated: yes
+
+keywords: RMarkdown, academic CV, template
+
+fontfamily: Palatino
+# fontfamily: mathpazo
+# fontfamilyoptions: sc, osf
+fontsize: 10pt
+linkcolor: blue
+urlcolor: blue
+---
+
+
+# Education
+
+Robert H. Smith School of Business, University of Maryland, College Park, MD \hfill 2021-2023   
+Business Analytics 
+
+East China Normal University, Shanghai \hfill 2016~2020  
+Bachelor of Sociology 
+
+# Professional Experience
+
+**FancyDigital** \hfill 2020-09~2021-04  
+*Data Analyst*
+
++ Use distributed OLAP databases such as Apache Doris/TiDB/Clickhouse to write BI data reports.
+
++ Perform user retention analysis on the company's SaaS product, which is generally called Smart Investment, and assist operations in user services and other tasks.
+
++ Analyze the error log during product use and assist the product manager to optimize product design and user experience.
+
++ Participate in the research and development of online BI data analysis reports for SaaS products.
+
+
+**Data Scientist Internship**  \hfill 2020-02~2020-04   
+*Zhongnan University of Economics and Law Data Consultant*  
+Use Xgboost, RandomForest, LightGBM and other algorithms to classify (multiclass) legal text data. The word frequency method is used to construct the feature matrix, and the cross-validation training model (`sklearn`) is used to obtain the cross-validation accuracy of 0.75. I write a program to make predictions on new data, so that the prediction results can be applied to any new data set.
+
+
+# Awards and Honors
+
+**Kaggle**  [**M5 Forecasting - Accuracy**](https://www.kaggle.com/c/m5-forecasting-accuracy) \qquad 103rd/5558 \ Top2% \ Silver Medal \hfill 2020    
+*Estimate the unit sales of Walmart retail goods*   
+
+
+**Kaggle** [**M5 Forecasting - Uncertainty**](https://www.kaggle.com/c/m5-forecasting-uncertainty) \qquad 18th/909 \ Top2% \ Silver Medal  \hfill 2020  
+*Estimate the uncertainty distribution of Walmart unit sales*

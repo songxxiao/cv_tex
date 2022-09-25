@@ -1,0 +1,163 @@
+---
+output: 
+  pdf_document:
+    latex_engine: pdflatex
+    template: cv-latex.tex
+geometry: 'left=0.5in,top=0.5in,right=0.5in,bottom=0.5in'
+
+title: 'Resume'
+author: Xiao (Seanny) Song
+
+fontawesome: true
+
+# jobtitle: Data Analyst
+email: 'songxiao@umd.edu'
+
+
+github: 'songxxiao'
+web: 'xsong.ltd'
+linkedin: 'seannysong'
+# twitter: -----
+phone: '(240)564-1321'
+# fontfamily: Times New Roman
+# keywords: R Markdown, academic CV, template
+fontfamily: mathpazo # TeX Gyre Pagella  # mathpazo  Palatino
+# fontfamilyoptions: sc, osf
+fontsize: 9pt
+urlcolor: black
+---
+
+# EDUCATION
+
+
+**Robert H. Smith School of Business, University of Maryland**, College Park, MD \hfill Aug 2021 ~ Dec 2022  
+*Master of Science in Business Analytics (STEM), Terrapin Scholarship*
+
+**East China Normal University**, Shanghai \hfill Sep 2016 ~ Jun 2020  
+*Bachelor of Sociology, Shanghai Scholarship*
+
+# WORK EXPERIENCE
+
+**FancyDigital**, Shanghai \hfill Sep 2020 ~ Aug 2021    
+**Data Analyst(Full-Time)**
+
++ Selected metrics and collaborated with a team to built multi-dimensional public BI dashboards; Visualized and evaluated health of a SaaS system resulting in a 5% growth of customers
+
++ Mentored new co-workers to perform user churn analysis based on users databases and provided user service suggestions to operators resulting in a decrease of user churn rate to 10%
+
++ Cooperated with product managers to optimize product design and user experience using error logs data leading to a reduction of bug rate by 7%; Upgraded and tested data product in a SaaS system during developing schedule
+
++  Designed ETL shell scripts to aggregate original detailed data into intermediate tables to optimize query performance by 85% and successfully automate daily reports; Reduced human-power input and time cost
+
+<!---
++ Use distributed OLAP databases such as Apache Doris/TiDB/Clickhouse to write BI data dashboards. Use a variety of visualization methods to show usage and revenue of system. Count consumption of advertising in multiple dimensions, such as time and user dimensions
+--->
+# PROJECT EXPERIENCE
+
+**Click-Through Rate Prediction** \hfill Jul 2022
+
++ Applied XGBoost, LightGBM and Sklearn package in Python to build Predictive Models; found 11 variables associated with the expected results from a large dataset with 25 different variables.
+
++ Calculated click-through rate on high-dimensional features to separate data into bins, make every thousands-class feature into 5-class categorical factor, avoided sparse data problems and reduced program runtime by 15%
+
++ Sub-sampled data to balance positive and negative cases, constructed stratified 3 fold cross validation and used grid-search method to find best hyper-parameters, improved accuracy of 5% on test score
+
++ Drill-down every feature to clarify importance using exploratory data analysis, including data visualization and grouped Statistics; Selected features based on results of EDA to reduce complexity of training models
+
+
+**Legal Provision Machine Learning** \hfill Dec 2021  
+
++ Preformed word frequency method and several NLP methods to construct feature matrix and trained a 5 folds cross validation to classify legal text's category and obtained improvement of accuracy to 0.8 
+
++ Using reverse-translation method to add 25% noise to the dataset and augment sample size, made models more generalize on unknown samples, increased test accuracy by 5%
+
+<!---
+**iResearch Consulting**, Shanghai \hfill Jul. 2019 - Sep. 2019    
+**Data Analyst Internship**
++ Applied cluster analysis method to develop vehicle user profile and provide marketing advice for customers in automotive industry
+
+
++ Compiled consulting reports based on data analysis according to user portraits to help automobile manufacturers establish product positioning for target users
+--->
+
+# AWARDS AND HONORS
+
+[**Kaggle M5 Forecasting Competition**](https://www.kaggle.com/c/m5-forecasting-accuracy) \qquad 103rd/5558 \ Top2% \ Silver Medal \hfill Mar 2020 ~ Jun 2020    
+**Estimate unit sales of Walmart retail goods**  
+
++ Created features on tabular data using rolling-window method and trained a LightGBM algorithm to forecast daily sales for next 28 days; Built time series split to optimize hyper-parameters and acquired 0.58 of RMSE
+
++ Stacked and averaged single LightGBM model predictions to improve the generalization ability of forecasts promoted 10% of ranking on leaderboard; Successfully avoided severe shake-down in privte leaderboard
+
+
+<!---
+**Kaggle** [**M5 Forecasting - Uncertainty**](https://www.kaggle.com/c/m5-forecasting-uncertainty) \qquad 18th/909 \ Top2% \ Silver Medal  \hfill 2020  
+*Estimate  uncertainty distribution of Walmart unit sales*   
+--->
+
+# TECHNICAL SKILLS
+
++ Python (numpy, pandas, scikit-learn, tensorflow/keras), R (data.table, dplyr, shiny, tidyr)
++ SQL(MySQL, SQL Server, TiDB, Clickhouse), Tableau, Linux/Shell, SPSS, Stata, Git, Web Crawler, Text Mining
+
+
+
+<!---
++ **Database / Data Warehouse** Good at writing and optimization of sql commands based on MySQL, SQL Server, etc. Familiar with advanced methods such as window functions
+
++ **Data Analytics & Statistics** Familiar with data manipulation and statistical analysis based on Python and R language, including use of software packages such as `numpy`, `pandas` and `data.table`, `tidyverse`
+
++ **Machine Learning** Familiar with  ory and application of traditional machine learning methods, including cross-validation training and parameter adjustment based on `sklearn`'s Logistic Regression, SVM, Xgboost and or models
+
++ **Data visualization** Proficient in using Tableau, `ggplot2`, `plotly` and or software packages to visualize discrete data and continuous data, and be good at making dashboards based on business logic
+
++ **Web Crawler**  Familiar with  basic knowledge of html/css/json, can use Selenium, bs4 and or tools in Python to crawl data presented in  webpage and write it into  database for storage
+
++ **Other Skills**  
+
+Python (NumPy, Pandas, Scikit-learn, Keras, Flask), Tableau, 
+SQL(MySQL, SQL Server, TiDB, Clickhouse), Linux/Shell, SPSS, Stata, Git, \LaTeX, HTML/CSS
+
+<!---
+
+**Data Analytics**  
+Familiar with  principle and implementation of statistical analysis in R language, able to use `tidyverse`, `data.table` for data cleaning.  
+Understand R language statistical analysis, derivation and implementation of LR, RNN, generalized linear model, K-means and or methods.  
+Familiar with Python `pandas` library for manipulation of tabular data, `numpy` library for numerical operations.
+
+**Data visualization**  
+Familiar with R language `ggplot2`, Python `seaborn` `plotnine` library.
+
+**Machine Learning**  
+Understand  principles and implementation of Xgboost, LightGBM and or high-performance algorithms.  
+Familiar with  implementation of various algorithms of Python `sklearn` library, including supervised learning and unsupervised learning.  
+Understand  principles and implementation of natural language processing using `keras` deep learning framework.
+
+**Big Data**  
+Understand how to use R language `sparklyr` and or tools to connect and operate Hadoop and Spark clusters
+
+**Standard Examination**  
+TOEFL \quad 103 \ *Reading* 29 *Listening* 27 *Speaking* 21 *Writing* 26  
+GRE \quad *Verbal*  154 *Quantity* 167 *Writing* 3.5
+
+SQL, SPSS, Stata, Git, \LaTeX, MS Office, HTML/CSS
+--->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

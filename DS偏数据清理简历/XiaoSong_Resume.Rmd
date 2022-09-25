@@ -11,7 +11,7 @@ author: Xiao (Seanny) Song
 fontawesome: true
 
 # jobtitle: Data Analyst
-email: 'xiao.song@marylandsmith.umd.edu'
+email: 'songxiao@umd.edu'
 
 
 github: 'songxxiao'
@@ -29,24 +29,25 @@ urlcolor: black
 
 # EDUCATION
 
+
 **Robert H. Smith School of Business, University of Maryland**, College Park, MD \hfill Aug 2021 ~ Dec 2022  
 *Master of Science in Business Analytics (STEM), Terrapin Scholarship*
 
 **East China Normal University**, Shanghai \hfill Sep 2016 ~ Jun 2020  
-*Bachelor of Sociology*
+*Bachelor of Sociology, Shanghai Scholarship*
 
 # WORK EXPERIENCE
 
 **FancyDigital**, Shanghai \hfill Sep 2020 ~ Aug 2021    
 **Data Analyst(Full-Time)**
 
-+ Selected key statistics and collaborated with a team to built multi-dimensional public BI dashboards; Visualized and evaluated health of a SaaS system resulting in a 5% growth of customers
++ Selected metrics and collaborated with a team to built multi-dimensional public BI dashboards; Visualized and evaluated health of a SaaS system resulting in a 5% growth of customers
 
 + Mentored new co-workers to perform user churn analysis based on users databases and provided user service suggestions to operators resulting in a decrease of user churn rate to 10%
 
-+ Worked alongside product managers to optimize product design and user experience using error logs data leading to a reduction of bug rate by 7%; Upgraded and tested data product in a SaaS system during developing schedule
++ Cooperated with product managers to optimize product design and user experience using error logs data leading to a reduction of bug rate by 7%; Upgraded and tested data product in a SaaS system during developing schedule
 
-+ Wrote ETL shell scripts to aggregate original detailed data into intermediate tables to optimize query performance by 85% and successfully automate daily reports; Reduced human-power input and time cost
++  Designed ETL shell scripts to aggregate original detailed data into intermediate tables to optimize query performance by 85% and successfully automate daily reports; Reduced human-power input and time cost
 
 <!---
 + Use distributed OLAP databases such as Apache Doris/TiDB/Clickhouse to write BI data dashboards. Use a variety of visualization methods to show usage and revenue of system. Count consumption of advertising in multiple dimensions, such as time and user dimensions
@@ -81,7 +82,7 @@ urlcolor: black
 
 # AWARDS AND HONORS
 
-**Kaggle** [**M5 Forecasting - Accuracy**](https://www.kaggle.com/c/m5-forecasting-accuracy) \qquad 103rd/5558 \ Top2% \ Silver Medal \hfill Mar 2020 ~ Jun 2020    
+[**Kaggle M5 Forecasting Competition**](https://www.kaggle.com/c/m5-forecasting-accuracy) \qquad 103rd/5558 \ Top2% \ Silver Medal \hfill Mar 2020 ~ Jun 2020    
 **Estimate unit sales of Walmart retail goods**  
 
 + Created features on tabular data using rolling-window method and trained a LightGBM algorithm to forecast daily sales for next 28 days; Built time series split to optimize hyper-parameters and acquired 0.58 of RMSE
